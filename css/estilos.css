@@ -1,0 +1,155 @@
+body{
+    font: 15px Myriad Pro, Open Sans, Verdana, Helvetica
+    padding: 0;
+    margin: 0;
+    background-color: #DBDAD7
+
+}
+
+/* Estilos */
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #ffffff;
+   
+}
+
+
+#patrocinadores{
+    color: #ffffff;
+   
+    padding-top: 50px;
+    background-color: #24282b;
+    padding-bottom: 20px;
+    border-bottom:4px solid #0895F9;
+}
+#patrocinadores h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contenedor2{
+
+display: inline-block;
+margin-left: 410px;
+color: #ffffff;
+
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+/*Encabezado*/
+
+header{
+    background: #24282b;
+    color: #ffffff;
+    padding-top: 40px;
+    min-height: 60px;
+    border-bottom :3px solid #0895F9
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+
+}
+header #marca {
+    float: left;
+}
+header #marca h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+header .resaltar ,header .inicio a{
+color:#0895F9;
+font-weight: bold;
+}
+
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+/*Imagen de fondo cabecera*/
+#cabecera{
+    min-height: 400px;
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#cabecera p{
+    font-size: 20px;
+}
+
+/*Patrocinadores*/
+
+#patrocinadores{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#patrocinadores .contenedor{
+
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#patrocinadores .contenedor img{
+    width: 100px;
+    
+}
+
+/*Texto*/
+
+
+
+#Guia p{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#Guia a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#Guia .parrafo{
+    text-align: center;
+
+}
+
+
+footer{
+background-color: #24282b;
+color: #ffffff;
+text-align: center;
+
+
+
+}
+

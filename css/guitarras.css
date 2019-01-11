@@ -1,0 +1,86 @@
+body{
+    font: 15px Myriad Pro, Open Sans, Verdana, Helvetica
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff
+}
+
+/*Encabezado*/
+
+header{
+    background: #24282b;
+    color: #ffffff;
+    padding-top: 40px;
+    min-height: 60px;
+    border-bottom :3px solid #0895F9
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+
+}
+header #marca {
+    float: left;
+}
+header #marca h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+header .resaltar ,header .inicio a{
+color:#0895F9;
+font-weight: bold;
+}
+
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #ffffff;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#guita{
+
+background: #cccccc;
+
+border-bottom: 5px solid #0895F9;
+text-align: center;
+padding-top: 20px;
+padding-left: 400px;
+padding-right: 400px;
+}
+
+
+footer{
+    background-color: #24282b;
+    color: #ffffff;
+    text-align: center;
+    
+    

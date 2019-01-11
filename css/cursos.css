@@ -1,0 +1,129 @@
+body{
+    font: 15px Myriad Pro, Open Sans, Verdana, Helvetica
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/fondo1.jpg');
+}
+
+/*Encabezado*/
+
+header{
+    background: #24282b;
+    color: #ffffff;
+    padding-top: 40px;
+    min-height: 60px;
+    border-bottom :3px solid #0895F9
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+
+}
+header #marca {
+    float: left;
+}
+header #marca h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+header .resaltar ,header .inicio a{
+color:#0895F9;
+font-weight: bold;
+}
+
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #ffffff;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+
+.menu{
+   width: 3.2rem;
+   height: 3.7rem;
+   background: #0895F9;
+   border-radius: 0.5rem;
+   position: absolute;
+   top: 50%;
+   left: 5%;
+   
+   text-align: center;
+   transition: left 0.4s;
+ }
+
+ .checkbox:checked ~ .menu{
+     left: 40%;
+     border-radius: 0 0.5rem 0.5rem 0;
+ }
+
+
+.panel-iz{
+    
+    width: 40%;
+    height: 100%;
+    background: #24282b;
+    position: absolute;
+    top: 10.5%;
+    left: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.4s;
+}
+
+.checkbox:checked ~ .panel-iz{
+    left: 0;
+}
+.checkbox{
+    display: none;
+}
+
+
+.panel-iz a{
+    color: #0895F9;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.panel-iz a:hover{
+    color: #cccccc;
+    font-weight: bold;
+    }
+
+
+#canciones{
+    font-style: italic;
+    font-weight: bold;
+
+
+    text-align: right;
+    color: #0895F9;
+    padding-right: 300px;
+    padding-top: 30px;
+}    
